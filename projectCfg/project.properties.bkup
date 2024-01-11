@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Tue Jan 09 19:54:20 BRT 2024
-#Tue Jan 09 19:54:20 BRT 2024
+#Last Saved on: Thu Jan 11 08:27:10 BRT 2024
+#Thu Jan 11 08:27:10 BRT 2024
 dwellSettingsDwell\ Settings_X=890
 sparkSettingsConfigura\u00E7\u00F5es\ de\ Igni\u00E7\u00E3o_height=437
 iacPwmCrank_curve_Auto\ Scale\ Y\ Axis\ Maximum=false
@@ -92,7 +92,7 @@ primePWPriming\ Pulsewidth_height=425
 flexFuelFuel\ Sensor\ Settings_X=226
 fuelTable2DialogFuel\ Table\ 2_width=561
 flexFuelFuel\ Sensor\ Settings_Y=182
-projectName=vw_tl
+projectName=vw_1600_tune
 inj_trimadInjector\ Cyl\ 1-4\ Trims_X=389
 refTable_001_chkCelsius=true
 veTable1Map3DVE\ Table_width=800
@@ -114,7 +114,7 @@ CommSettingdellCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=true
 mapCalCalibrate\ MAP_Y=280
 mapCalCalibrate\ MAP_X=2105
 idleUpSettingsIdle\ Up\ Settings_width=406
-tuneFileDir=/home/vagner/TunerStudioProjects/vw_tl
+tuneFileDir=/home/vagner/workspace/vw_control/vw_1600_tune
 refTable_000_txtTemp2=50.0
 iacPwm_curveIAC\ PWM\ Duty_X=1817
 refTable_000_txtTemp1=-40
