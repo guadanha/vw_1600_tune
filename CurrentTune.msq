@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Lite! 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Jan 25 22:05:54 BRT 2024"/>
+    <bibliography author="TunerStudio MS Lite! 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Jan 27 19:18:18 BRT 2024"/>
     <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2023.10" nPages="15" signature="speeduino 202310"/>
     <page>
         <pcVariable name="tsCanId">"0"</pcVariable>
@@ -615,11 +615,11 @@
     </page>
     <page number="1" size="288">
         <constant cols="16" digits="0" name="veTable" rows="16" units="%">
-         115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 
-         115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 
-         115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 
-         115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 
-         122.0 122.0 122.0 122.0 122.0 122.0 122.0 122.0 122.0 122.0 122.0 122.0 122.0 122.0 122.0 122.0 
+         115.0 197.0 194.0 194.0 181.0 160.0 113.0 113.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 
+         115.0 190.0 190.0 190.0 177.0 191.0 117.0 117.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 
+         115.0 171.0 171.0 171.0 171.0 171.0 117.0 117.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 
+         115.0 117.0 117.0 117.0 117.0 117.0 117.0 117.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 115.0 
+         122.0 124.0 124.0 124.0 124.0 124.0 124.0 124.0 122.0 122.0 122.0 122.0 122.0 122.0 122.0 122.0 
          126.0 126.0 126.0 126.0 126.0 126.0 126.0 126.0 126.0 126.0 126.0 126.0 126.0 126.0 126.0 126.0 
          128.0 128.0 128.0 128.0 128.0 128.0 128.0 128.0 128.0 128.0 128.0 128.0 128.0 128.0 128.0 128.0 
          130.0 130.0 130.0 130.0 130.0 130.0 130.0 130.0 130.0 130.0 130.0 130.0 130.0 130.0 130.0 130.0 
@@ -728,13 +728,13 @@
     <page number="3" size="128">
         <constant digits="0" name="TrigAng" units="Deg">-317.0</constant>
         <constant digits="0" name="FixAng" units="Deg">20.0</constant>
-        <constant digits="0" name="CrankAng" units="Deg">5.0</constant>
+        <constant digits="0" name="CrankAng" units="Deg">15.0</constant>
         <constant digits="0" name="TrigAngMul">0.0</constant>
         <constant name="TrigEdge">"FALLING"</constant>
         <constant name="TrigSpeed">"Crank Speed"</constant>
         <constant name="IgInv">"Going Low"</constant>
         <constant name="TrigPattern">"Missing Tooth"</constant>
-        <constant name="TrigEdgeSec">"FALLING"</constant>
+        <constant name="TrigEdgeSec">"RISING"</constant>
         <constant name="fuelPumpPin">"Board Default"</constant>
         <constant name="useResync">"No"</constant>
         <constant digits="1" name="sparkDur" units="ms">2.8</constant>
