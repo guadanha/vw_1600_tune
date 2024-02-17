@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Lite! 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Jan 27 19:18:18 BRT 2024"/>
+    <bibliography author="TunerStudio MS Lite! 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Feb 17 17:04:53 BRT 2024"/>
     <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2023.10" nPages="15" signature="speeduino 202310"/>
     <page>
         <pcVariable name="tsCanId">"0"</pcVariable>
@@ -526,11 +526,11 @@
         <constant digits="0" name="idleUpAdder" units="% / Steps">0.0</constant>
         <constant digits="0" name="aeTaperMin" units="RPM">1000.0</constant>
         <constant digits="0" name="aeTaperMax" units="RPM">3000.0</constant>
-        <constant digits="0" name="iacCLminValue" units="% / Steps">0.0</constant>
-        <constant digits="0" name="iacCLmaxValue" units="% / Steps">0.0</constant>
+        <constant digits="0" name="iacCLminValue" units="% / Steps">70.0</constant>
+        <constant digits="0" name="iacCLmaxValue" units="% / Steps">94.0</constant>
         <constant digits="0" name="boostMinDuty" units="%">0.0</constant>
-        <constant digits="0" name="baroMin" units="kpa">0.0</constant>
-        <constant digits="0" name="baroMax" units="kpa">0.0</constant>
+        <constant digits="0" name="baroMin" units="kpa">10.0</constant>
+        <constant digits="0" name="baroMax" units="kpa">260.0</constant>
         <constant digits="0" name="EMAPMin" units="kpa">0.0</constant>
         <constant digits="0" name="EMAPMax" units="kpa">0.0</constant>
         <constant name="fanWhenOff">"No"</constant>
@@ -728,7 +728,7 @@
     <page number="3" size="128">
         <constant digits="0" name="TrigAng" units="Deg">-317.0</constant>
         <constant digits="0" name="FixAng" units="Deg">20.0</constant>
-        <constant digits="0" name="CrankAng" units="Deg">15.0</constant>
+        <constant digits="0" name="CrankAng" units="Deg">17.0</constant>
         <constant digits="0" name="TrigAngMul">0.0</constant>
         <constant name="TrigEdge">"FALLING"</constant>
         <constant name="TrigSpeed">"Crank Speed"</constant>
@@ -746,7 +746,7 @@
         <constant digits="0" name="SkipCycles" units="cycles">1.0</constant>
         <constant name="boostType">"Closed Loop"</constant>
         <constant name="useDwellLim">"On"</constant>
-        <constant name="sparkMode">"Wasted COP"</constant>
+        <constant name="sparkMode">"Sequential"</constant>
         <constant name="TrigFilter">"Weak"</constant>
         <constant name="ignCranklock">"Off"</constant>
         <constant digits="1" name="dwellcrank" units="ms">2.8</constant>
@@ -1000,7 +1000,7 @@
         <constant name="useExtBaro">"No"</constant>
         <constant name="boostMode">"Full"</constant>
         <constant name="boostPin">"Board Default"</constant>
-        <constant name="tachoMode">"Fixed Duration"</constant>
+        <constant name="tachoMode">"Match Dwell"</constant>
         <constant name="useEMAP">"No"</constant>
         <constant cols="1" digits="1" name="brvBins" rows="6" units="V">
          7.0 
@@ -1042,7 +1042,7 @@
       </constant>
         <constant digits="0" name="boostFreq" units="Hz">0.0</constant>
         <constant digits="0" name="vvtFreq" units="Hz">0.0</constant>
-        <constant digits="0" name="idleFreq" units="Hz">0.0</constant>
+        <constant digits="0" name="idleFreq" units="Hz">70.0</constant>
         <constant name="launchPin">"Board Default"</constant>
         <constant name="launchEnable">"No"</constant>
         <constant name="launchHiLo">"LOW"</constant>
@@ -1050,30 +1050,30 @@
         <constant digits="0" name="lnchRetard" units="deg">0.0</constant>
         <constant digits="0" name="lnchHardLim" units="rpm">0.0</constant>
         <constant digits="0" name="lnchFuelAdd" units="%">0.0</constant>
-        <constant digits="2" name="idleKP" units="%">0.0</constant>
-        <constant digits="2" name="idleKI" units="%">0.0</constant>
-        <constant digits="3" name="idleKD" units="%">0.0</constant>
+        <constant digits="2" name="idleKP" units="%">0.625</constant>
+        <constant digits="2" name="idleKI" units="%">0.25</constant>
+        <constant digits="3" name="idleKD" units="%">0.03905</constant>
         <constant digits="0" name="boostLimit" units="kPa">0.0</constant>
         <constant digits="0" name="boostKP" units="%">0.0</constant>
         <constant digits="0" name="boostKI" units="%">0.0</constant>
         <constant digits="0" name="boostKD" units="%">0.0</constant>
         <constant name="lnchPullRes">"Float"</constant>
-        <constant name="iacPWMrun">"No"</constant>
+        <constant name="iacPWMrun">"Yes"</constant>
         <constant name="fuelTrimEnabled">"No"</constant>
         <constant name="flatSEnable">"No"</constant>
-        <constant name="baroPin">"A0"</constant>
+        <constant name="baroPin">"A5"</constant>
         <constant digits="0" name="flatSSoftWin" units="rpm">0.0</constant>
         <constant digits="0" name="flatSRetard" units="deg">0.0</constant>
         <constant digits="0" name="flatSArm" units="rpm">0.0</constant>
         <constant cols="1" digits="0" name="iacCLValues" rows="10" units="RPM">
          1000.0 
          1000.0 
+         1200.0 
          1000.0 
          1000.0 
-         1000.0 
-         1000.0 
-         1000.0 
-         1000.0 
+         1010.0 
+         1030.0 
+         1020.0 
          1000.0 
          1000.0 
       </constant>
@@ -1122,16 +1122,16 @@
         <constant cols="1" digits="0" name="iacCrankDuty" rows="4" units="Duty %">
          0.0 
          0.0 
-         0.0 
-         0.0 
+         26.0 
+         58.0 
       </constant>
         <constant cols="1" digits="0" name="iacCrankBins" rows="4" units="C">
-         -40.0 
-         -40.0 
-         -40.0 
-         -40.0 
+         -10.0 
+         62.0 
+         82.0 
+         120.0 
       </constant>
-        <constant name="iacAlgorithm">"PWM Open loop"</constant>
+        <constant name="iacAlgorithm">"PWM Closed loop"</constant>
         <constant name="iacStepTime">"1"</constant>
         <constant name="iacChannels">"1"</constant>
         <constant name="iacPWMdir">"Normal"</constant>
