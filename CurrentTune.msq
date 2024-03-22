@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Lite! 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Mar 01 08:29:33 BRT 2024"/>
+    <bibliography author="TunerStudio MS Lite! 3.2.00 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Mar 21 23:10:36 BRT 2024"/>
     <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2024.02" nPages="15" signature="speeduino 202402"/>
     <page>
-        <pcVariable name="tsCanId">"0"</pcVariable>
         <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
         <pcVariable digits="0" name="rpmhigh" units="rpm">7000.0</pcVariable>
         <pcVariable digits="0" name="rpmwarn" units="rpm">3000.0</pcVariable>
@@ -511,8 +510,8 @@
         <constant digits="0" name="flexFreqLow" units="Hz">50.0</constant>
         <constant digits="0" name="flexFreqHigh" units="Hz">150.0</constant>
         <constant digits="0" name="boostMaxDuty" units="%">0.0</constant>
-        <constant digits="0" name="tpsMin" units="ADC">21.0</constant>
-        <constant digits="0" name="tpsMax" units="ADC">225.0</constant>
+        <constant digits="0" name="tpsMin" units="ADC">231.0</constant>
+        <constant digits="0" name="tpsMax" units="ADC">56.0</constant>
         <constant digits="0" name="mapMin" units="kpa">10.0</constant>
         <constant digits="0" name="mapMax" units="kpa">260.0</constant>
         <constant digits="0" name="fpPrime" units="s">2.0</constant>
