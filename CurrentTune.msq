@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Lite! 3.2.00 - EFI Analytics, Inc." tuneComment="" writeDate="Thu Mar 21 23:10:36 BRT 2024"/>
+    <bibliography author="TunerStudio MS Lite! 3.2.00 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Mar 24 15:14:05 BRT 2024"/>
     <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2024.02" nPages="15" signature="speeduino 202402"/>
     <page>
         <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -510,8 +510,8 @@
         <constant digits="0" name="flexFreqLow" units="Hz">50.0</constant>
         <constant digits="0" name="flexFreqHigh" units="Hz">150.0</constant>
         <constant digits="0" name="boostMaxDuty" units="%">0.0</constant>
-        <constant digits="0" name="tpsMin" units="ADC">231.0</constant>
-        <constant digits="0" name="tpsMax" units="ADC">56.0</constant>
+        <constant digits="0" name="tpsMin" units="ADC">22.0</constant>
+        <constant digits="0" name="tpsMax" units="ADC">194.0</constant>
         <constant digits="0" name="mapMin" units="kpa">10.0</constant>
         <constant digits="0" name="mapMax" units="kpa">260.0</constant>
         <constant digits="0" name="fpPrime" units="s">2.0</constant>
@@ -669,14 +669,14 @@
     </page>
     <page number="2" size="288">
         <constant cols="16" digits="0" name="advTable1" rows="16" units="deg">
-         13.0 10.0 15.0 19.0 20.0 23.0 27.0 30.0 31.0 35.0 38.0 40.0 40.0 40.0 40.0 40.0 
-         13.0 10.0 15.0 18.0 20.0 23.0 26.0 29.0 31.0 34.0 37.0 40.0 40.0 40.0 40.0 40.0 
-         13.0 10.0 15.0 18.0 19.0 22.0 25.0 28.0 30.0 33.0 36.0 39.0 40.0 40.0 40.0 40.0 
-         13.0 10.0 14.0 17.0 19.0 22.0 24.0 27.0 29.0 32.0 35.0 38.0 39.0 40.0 40.0 40.0 
-         13.0 10.0 14.0 17.0 18.0 21.0 24.0 26.0 28.0 31.0 34.0 36.0 38.0 39.0 39.0 39.0 
-         13.0 10.0 13.0 16.0 17.0 20.0 23.0 26.0 27.0 30.0 33.0 35.0 37.0 38.0 38.0 38.0 
-         5.0 10.0 13.0 16.0 17.0 20.0 22.0 25.0 26.0 29.0 31.0 34.0 35.0 37.0 37.0 37.0 
-         5.0 10.0 12.0 15.0 16.0 19.0 21.0 24.0 25.0 28.0 30.0 33.0 34.0 36.0 36.0 36.0 
+         13.0 10.0 12.0 13.0 14.0 17.0 21.0 24.0 25.0 35.0 38.0 40.0 40.0 40.0 40.0 40.0 
+         13.0 10.0 12.0 12.0 14.0 17.0 20.0 23.0 25.0 34.0 37.0 40.0 40.0 40.0 40.0 40.0 
+         13.0 10.0 12.0 12.0 13.0 16.0 19.0 22.0 24.0 33.0 30.0 30.0 30.0 30.0 30.0 30.0 
+         13.0 10.0 11.0 11.0 13.0 16.0 18.0 21.0 23.0 32.0 30.0 30.0 30.0 30.0 30.0 30.0 
+         13.0 10.0 11.0 11.0 12.0 15.0 18.0 20.0 22.0 31.0 30.0 30.0 30.0 30.0 30.0 30.0 
+         13.0 10.0 10.0 10.0 11.0 14.0 17.0 20.0 21.0 30.0 30.0 30.0 30.0 30.0 30.0 30.0 
+         5.0 10.0 10.0 10.0 11.0 14.0 16.0 19.0 20.0 29.0 30.0 30.0 30.0 30.0 30.0 30.0 
+         5.0 10.0 8.0 11.0 12.0 15.0 17.0 20.0 21.0 28.0 30.0 33.0 34.0 36.0 36.0 36.0 
          5.0 10.0 12.0 14.0 16.0 18.0 21.0 23.0 24.0 27.0 29.0 32.0 33.0 34.0 34.0 34.0 
          5.0 10.0 12.0 14.0 15.0 18.0 20.0 22.0 24.0 26.0 28.0 31.0 32.0 33.0 33.0 33.0 
          5.0 10.0 11.0 13.0 15.0 17.0 19.0 21.0 23.0 25.0 27.0 29.0 31.0 32.0 32.0 32.0 
@@ -725,7 +725,7 @@
     </page>
     <page number="3" size="128">
         <constant digits="0" name="TrigAng" units="Deg">-317.0</constant>
-        <constant digits="0" name="FixAng" units="Deg">20.0</constant>
+        <constant digits="0" name="FixAng" units="Deg">10.0</constant>
         <constant digits="0" name="CrankAng" units="Deg">20.0</constant>
         <constant digits="0" name="TrigAngMul">0.0</constant>
         <constant name="TrigEdge">"FALLING"</constant>
@@ -814,7 +814,7 @@
         <constant name="ignBypassHiLo">"LOW"</constant>
         <constant digits="0" name="ADCFILTER_TPS" units="%">8.0</constant>
         <constant digits="0" name="ADCFILTER_CLT" units="%">13.0</constant>
-        <constant digits="0" name="ADCFILTER_IAT" units="%">11.0</constant>
+        <constant digits="0" name="ADCFILTER_IAT" units="%">21.0</constant>
         <constant digits="0" name="ADCFILTER_O2" units="%">9.0</constant>
         <constant digits="0" name="ADCFILTER_BAT" units="%">9.0</constant>
         <constant digits="0" name="ADCFILTER_MAP" units="%">9.0</constant>
@@ -970,7 +970,7 @@
       </constant>
     </page>
     <page number="5" size="128">
-        <constant name="egoAlgorithm">"Simple"</constant>
+        <constant name="egoAlgorithm">"No correction"</constant>
         <constant name="egoType">"Wide Band"</constant>
         <constant name="boostEnabled">"On"</constant>
         <constant name="vvtEnabled">"On"</constant>

@@ -1,14 +1,14 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Wed Mar 20 08:25:26 BRT 2024
-#Wed Mar 20 08:25:26 BRT 2024
+#Last Saved on: Thu Mar 21 23:10:37 BRT 2024
+#Thu Mar 21 23:10:37 BRT 2024
 dwellSettingsDwell\ Settings_X=624
 sparkSettingsConfigura\u00E7\u00F5es\ de\ Igni\u00E7\u00E3o_height=437
 iacPwmCrank_curve_Auto\ Scale\ Y\ Axis\ Maximum=false
-dwell_correction_curveDwell\ voltage\ correction_X=788
 sparkSettingsSpark\ Settings_X=258
-dwell_correction_curveDwell\ voltage\ correction_Y=344
+dwell_correction_curveDwell\ voltage\ correction_X=788
 injCharsCaracter\u00EDsticas\ de\ injector_width=452
+dwell_correction_curveDwell\ voltage\ correction_Y=344
 reset_controlReset\ Control_width=396
 clt_advance_curve_Auto\ escala\ Y\ eixo\ m\u00E1ximo=false
 sparkSettingsSpark\ Settings_height=425
@@ -18,8 +18,8 @@ warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_width=720
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=true
 sparkSettingsConfigura\u00E7\u00F5es\ de\ Igni\u00E7\u00E3o_width=700
 sparkSettingsSpark\ Settings_width=797
-engine_constantsEngine\ Constants_X=886
 veTableDialogVE\ Table_width=710
+engine_constantsEngine\ Constants_X=886
 engine_constantsEngine\ Constants_Y=1107
 sensorFiltersAnalog\ sensor\ filters_height=496
 primePWPriming\ Pulsewidth_width=432
@@ -40,11 +40,11 @@ airdensity_curveIAT\ density\ correction_X=794
 airdensity_curveIAT\ density\ correction_Y=365
 triggerSettingsTrigger\ Settings_width=485
 io_summaryI/O\ Summary_X=444
-gaugeLimitsGauge\ Limits_X=924
 iacClosedLoop_curveIdle\ RPM\ Targets_height=281
+gaugeLimitsGauge\ Limits_X=924
 engineProtectionHard\ Limit\ Configuration_width=396
-io_summaryI/O\ Summary_Y=75
 iat_retard_curve_Conjunto\ X\ eixo\ m\u00EDnimo=-40.0
+io_summaryI/O\ Summary_Y=75
 sparkMap3DIgnition\ Advance\ Table_Y=151
 sparkMap3DIgnition\ Advance\ Table_X=244
 cranking_enrich_curve_showText=true
