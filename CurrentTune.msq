@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Lite! 3.2.00 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Mar 31 22:37:38 BRT 2024"/>
+    <bibliography author="TunerStudio MS Lite! 3.2.00 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Apr 02 14:14:02 BRT 2024"/>
     <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2024.02" nPages="15" signature="speeduino 202402"/>
     <page>
         <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -613,13 +613,13 @@
     </page>
     <page number="1" size="288">
         <constant cols="16" digits="0" name="veTable" rows="16" units="%">
-         121.0 124.0 127.0 130.0 134.0 147.0 154.0 162.0 170.0 168.0 164.0 160.0 175.0 174.0 173.0 172.0 
-         121.0 124.0 128.0 131.0 136.0 154.0 155.0 157.0 159.0 160.0 162.0 164.0 184.0 183.0 182.0 180.0 
-         123.0 128.0 133.0 138.0 144.0 158.0 160.0 164.0 168.0 172.0 176.0 180.0 194.0 192.0 190.0 189.0 
-         125.0 129.0 132.0 136.0 141.0 162.0 166.0 172.0 178.0 184.0 190.0 195.0 203.0 201.0 199.0 197.0 
-         148.0 151.0 155.0 158.0 162.0 165.0 169.0 177.0 184.0 191.0 199.0 206.0 209.0 207.0 205.0 203.0 
-         165.0 168.0 171.0 174.0 178.0 180.0 184.0 189.0 195.0 201.0 206.0 210.0 214.0 212.0 209.0 207.0 
-         183.0 185.0 188.0 191.0 194.0 196.0 198.0 202.0 205.0 209.0 213.0 218.0 219.0 217.0 214.0 212.0 
+         117.0 120.0 123.0 113.0 117.0 121.0 128.0 127.0 135.0 142.0 160.0 156.0 171.0 170.0 169.0 168.0 
+         109.0 107.0 111.0 118.0 123.0 132.0 133.0 135.0 137.0 147.0 162.0 164.0 184.0 183.0 182.0 180.0 
+         113.0 103.0 108.0 134.0 140.0 155.0 157.0 161.0 165.0 169.0 176.0 180.0 194.0 192.0 190.0 189.0 
+         151.0 146.0 143.0 140.0 141.0 177.0 181.0 187.0 193.0 199.0 190.0 195.0 203.0 201.0 199.0 197.0 
+         172.0 169.0 173.0 183.0 169.0 180.0 184.0 192.0 199.0 206.0 199.0 206.0 209.0 207.0 205.0 203.0 
+         182.0 179.0 182.0 185.0 185.0 182.0 184.0 189.0 195.0 201.0 206.0 210.0 214.0 212.0 209.0 207.0 
+         187.0 189.0 192.0 195.0 194.0 196.0 198.0 202.0 205.0 209.0 213.0 218.0 219.0 217.0 214.0 212.0 
          200.0 202.0 205.0 207.0 210.0 211.0 212.0 214.0 216.0 218.0 220.0 222.0 223.0 221.0 218.0 216.0 
          212.0 214.0 214.0 215.0 216.0 216.0 217.0 218.0 220.0 226.0 228.0 226.0 226.0 225.0 222.0 220.0 
          215.0 215.0 215.0 215.0 216.0 216.0 218.0 220.0 221.0 228.0 230.0 228.0 228.0 227.0 224.0 223.0 
@@ -669,12 +669,12 @@
     </page>
     <page number="2" size="288">
         <constant cols="16" digits="0" name="advTable1" rows="16" units="deg">
-         13.0 17.0 18.0 19.0 20.0 21.0 24.0 27.0 28.0 30.0 30.0 30.0 30.0 30.0 30.0 30.0 
-         13.0 17.0 18.0 19.0 20.0 21.0 23.0 26.0 28.0 30.0 30.0 30.0 30.0 30.0 30.0 30.0 
-         17.0 17.0 18.0 19.0 20.0 21.0 22.0 25.0 27.0 30.0 30.0 30.0 30.0 30.0 30.0 30.0 
-         17.0 17.0 18.0 19.0 20.0 20.0 22.0 24.0 26.0 30.0 30.0 30.0 30.0 30.0 30.0 30.0 
-         17.0 16.0 17.0 18.0 19.0 20.0 21.0 23.0 25.0 28.0 28.0 28.0 28.0 28.0 28.0 28.0 
-         15.0 15.0 16.0 18.0 18.0 19.0 20.0 23.0 24.0 23.0 28.0 28.0 28.0 28.0 28.0 28.0 
+         19.0 17.0 18.0 19.0 20.0 21.0 24.0 27.0 28.0 30.0 30.0 30.0 30.0 30.0 30.0 30.0 
+         19.0 17.0 18.0 19.0 20.0 21.0 23.0 26.0 28.0 30.0 30.0 30.0 30.0 30.0 30.0 30.0 
+         19.0 17.0 18.0 19.0 20.0 21.0 22.0 25.0 27.0 30.0 30.0 30.0 30.0 30.0 30.0 30.0 
+         19.0 17.0 18.0 19.0 20.0 20.0 22.0 24.0 26.0 30.0 30.0 30.0 30.0 30.0 30.0 30.0 
+         19.0 16.0 17.0 18.0 19.0 20.0 21.0 23.0 25.0 28.0 28.0 28.0 28.0 28.0 28.0 28.0 
+         17.0 15.0 16.0 18.0 18.0 19.0 20.0 23.0 24.0 23.0 28.0 28.0 28.0 28.0 28.0 28.0 
          10.0 15.0 16.0 17.0 17.0 18.0 19.0 22.0 23.0 22.0 28.0 28.0 28.0 28.0 28.0 28.0 
          0.0 5.0 7.0 10.0 8.0 11.0 12.0 15.0 16.0 19.0 21.0 24.0 24.0 24.0 24.0 24.0 
          0.0 5.0 7.0 9.0 11.0 13.0 14.0 16.0 17.0 20.0 22.0 25.0 26.0 27.0 27.0 27.0 
@@ -726,7 +726,7 @@
     <page number="3" size="128">
         <constant digits="0" name="TrigAng" units="Deg">-317.0</constant>
         <constant digits="0" name="FixAng" units="Deg">20.0</constant>
-        <constant digits="0" name="CrankAng" units="Deg">13.0</constant>
+        <constant digits="0" name="CrankAng" units="Deg">15.0</constant>
         <constant digits="0" name="TrigAngMul">0.0</constant>
         <constant name="TrigEdge">"FALLING"</constant>
         <constant name="TrigSpeed">"Crank Speed"</constant>
@@ -741,7 +741,7 @@
         <constant digits="0" name="bootloaderCaps" units="level">0.0</constant>
         <constant name="resetControl">"Disabled"</constant>
         <constant name="resetControlPin">"Board Default"</constant>
-        <constant digits="0" name="SkipCycles" units="cycles">1.0</constant>
+        <constant digits="0" name="SkipCycles" units="cycles">0.0</constant>
         <constant name="boostType">"Closed Loop"</constant>
         <constant name="useDwellLim">"On"</constant>
         <constant name="sparkMode">"Sequential"</constant>
@@ -824,7 +824,7 @@
          29.0 
          54.0 
          70.0 
-         95.0 
+         92.0 
          102.0 
       </constant>
         <constant cols="1" digits="0" name="cltAdvValues" rows="6" units="deg">
@@ -1048,9 +1048,9 @@
         <constant digits="0" name="lnchRetard" units="deg">0.0</constant>
         <constant digits="0" name="lnchHardLim" units="rpm">0.0</constant>
         <constant digits="0" name="lnchFuelAdd" units="%">0.0</constant>
-        <constant digits="2" name="idleKP" units="%">0.25</constant>
-        <constant digits="2" name="idleKI" units="%">0.1875</constant>
-        <constant digits="3" name="idleKD" units="%">0.0</constant>
+        <constant digits="2" name="idleKP" units="%">0.6875</constant>
+        <constant digits="2" name="idleKI" units="%">0.40625</constant>
+        <constant digits="3" name="idleKD" units="%">0.0781</constant>
         <constant digits="0" name="boostLimit" units="kPa">0.0</constant>
         <constant digits="0" name="boostKP" units="%">0.0</constant>
         <constant digits="0" name="boostKI" units="%">0.0</constant>
@@ -1064,16 +1064,16 @@
         <constant digits="0" name="flatSRetard" units="deg">0.0</constant>
         <constant digits="0" name="flatSArm" units="rpm">0.0</constant>
         <constant cols="1" digits="0" name="iacCLValues" rows="10" units="RPM">
-         1260.0 
-         1240.0 
-         1200.0 
-         1170.0 
-         1070.0 
-         1030.0 
-         940.0 
-         930.0 
-         930.0 
-         930.0 
+         1400.0 
+         1400.0 
+         1400.0 
+         1310.0 
+         1130.0 
+         1000.0 
+         1000.0 
+         990.0 
+         990.0 
+         990.0 
       </constant>
         <constant cols="1" digits="0" name="iacOLStepVal" rows="10" units="Steps">
          0.0 
@@ -1119,13 +1119,13 @@
       </constant>
         <constant cols="1" digits="0" name="iacCrankDuty" rows="4" units="Duty %">
          55.0 
-         72.0 
+         85.0 
          88.0 
          88.0 
       </constant>
         <constant cols="1" digits="0" name="iacCrankBins" rows="4" units="C">
          -10.0 
-         50.0 
+         30.0 
          86.0 
          123.0 
       </constant>
@@ -1700,13 +1700,13 @@
     <page number="9" size="192">
         <constant cols="1" digits="0" name="crankingEnrichBins" rows="4" units="C">
          -40.0 
-         0.0 
+         28.0 
          50.0 
          100.0 
       </constant>
         <constant cols="1" digits="0" name="crankingEnrichValues" rows="4" units="%">
          140.0 
-         125.0 
+         235.0 
          100.0 
          100.0 
       </constant>
