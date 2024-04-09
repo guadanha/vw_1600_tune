@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Tue Apr 02 08:55:09 BRT 2024
-#Tue Apr 02 08:55:09 BRT 2024
+#Last Saved on: Wed Apr 03 06:01:21 BRT 2024
+#Wed Apr 03 06:01:21 BRT 2024
 dwellSettingsDwell\ Settings_X=624
 sparkSettingsConfigura\u00E7\u00F5es\ de\ Igni\u00E7\u00E3o_height=437
 iacPwmCrank_curve_Auto\ Scale\ Y\ Axis\ Maximum=false
@@ -101,8 +101,8 @@ engineProtectionHard\ Limit\ Configuration_height=596
 iat_retard_curveIAT\ timing\ retard_width=452
 canId=0
 refTable_002_txtY2=18.7
-veTableDialogVE\ Table_X=129
-veTableDialogVE\ Table_Y=76
+veTableDialogVE\ Table_X=4
+veTableDialogVE\ Table_Y=118
 primePWPriming\ Pulsewidth_height=425
 flexFuelFuel\ Sensor\ Settings_X=226
 fuelTable2DialogFuel\ Table\ 2_width=561
@@ -178,10 +178,10 @@ baroFuel_curveBaro\ fuel\ correction_width=615
 ASEAfterstart\ Enrichment(ASE)_height=917
 accelEnrichmentsAcceleration\ Enrichment_Y=69
 accelEnrichmentsAcceleration\ Enrichment_X=302
-sparkTblIgnition\ Advance\ Table_X=379
+sparkTblIgnition\ Advance\ Table_X=642
 useCommonTuneViewDir=false
 crankPWacionando\ Configura\u00E7\u00F5es_X=2032
-sparkTblIgnition\ Advance\ Table_Y=293
+sparkTblIgnition\ Advance\ Table_Y=143
 ecuUid=2ca97f3a-0815-4a81-a397-bf578cb46dcf
 RevLimiterSEngine\ Protection\ and\ Limiters_width=1294
 veTable1Map3DTabela\ VE_Y=277
@@ -205,7 +205,7 @@ clt_advance_curveAdvance\ frio_width=452
 tachoTacho_Y=398
 iacClosedLoop_curveIdle\ RPM\ Targets_width=450
 tachoTacho_X=445
-idleSettingsIdle\ Settings_height=692
+idleSettingsIdle\ Settings_height=685
 fuelpumpFuel\ pump_height=151
 flexFuelFuel\ Sensor\ Settings_height=676
 primePWPriming\ Pulsewidth_X=814
@@ -261,12 +261,12 @@ revLimiterDialogRev\ Limiter_X=1004
 firmwareDescription=Speeduino 2024.02
 CommSettingMSCommDriver.RS232\ Serial\ Interface2nd\ Com\ Port=
 idleAdvanceSettingsIdle\ Advance\ Settings_width=1294
-idleSettingsIdle\ Settings_Y=27
-idleSettingsIdle\ Settings_X=900
+idleSettingsIdle\ Settings_Y=83
+idleSettingsIdle\ Settings_X=890
 RevLimiterSEngine\ Protection\ and\ Limiters_height=409
 pressureSensorsPressure\ Transducers_width=464
 io_summaryI/O\ Summary_width=396
-idleSettingsIdle\ Settings_width=396
+idleSettingsIdle\ Settings_width=406
 mapCalCalibrate\ MAP_width=431
 prgm_out_configProgrammable\ outputs_height=409
 inj_trimadInjector\ Cyl\ 1-4\ Trims_height=507
