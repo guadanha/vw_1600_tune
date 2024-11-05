@@ -1,25 +1,26 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Fri Nov 01 16:29:45 BRT 2024
-#Fri Nov 01 16:29:45 BRT 2024
+#Last Saved on: Fri Nov 01 16:41:48 BRT 2024
+#Fri Nov 01 16:41:48 BRT 2024
 dwellSettingsDwell\ Settings_X=649
+CommSettingCDM-13841LCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
 sparkSettingsConfigura\u00E7\u00F5es\ de\ Igni\u00E7\u00E3o_height=437
 iacPwmCrank_curve_Auto\ Scale\ Y\ Axis\ Maximum=false
-sparkSettingsSpark\ Settings_X=327
 dwell_correction_curveDwell\ voltage\ correction_X=905
-injCharsCaracter\u00EDsticas\ de\ injector_width=452
+sparkSettingsSpark\ Settings_X=327
 dwell_correction_curveDwell\ voltage\ correction_Y=1355
+injCharsCaracter\u00EDsticas\ de\ injector_width=452
 reset_controlReset\ Control_width=396
 clt_advance_curve_Auto\ escala\ Y\ eixo\ m\u00E1ximo=false
 sparkSettingsSpark\ Settings_height=425
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/ttyUSB0
-warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_width=720
 idleUpSettingsIdle\ Up\ Settings_height=315
+warmupWarmup\ Enrichment\ (WUE)\ -\ Percent\ Multiplier_width=720
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
 sparkSettingsConfigura\u00E7\u00F5es\ de\ Igni\u00E7\u00E3o_width=700
 sparkSettingsSpark\ Settings_width=797
-veTableDialogVE\ Table_width=710
 engine_constantsEngine\ Constants_X=414
+veTableDialogVE\ Table_width=710
 engine_constantsEngine\ Constants_Y=136
 accelEnrichmentsEnriquecimento\ de\ Acelera\u00E7\u00E3o_height=862
 sensorFiltersAnalog\ sensor\ filters_height=734
@@ -76,6 +77,7 @@ iacPwmCrank_curve_Set\ Y\ Axis\ Minimum=
 CommSettingMSCommDriver.RS232\ Serial\ InterfaceBaud\ Rate=115200
 CommSettingBaud\ Rate=115200
 injCharsCaracter\u00EDsticas\ de\ injector_height=672
+CommSettingCDM-13841LCommDriver.RS232\ Serial\ Interface2nd\ Com\ Port=
 stagingTableDialogStaged\ injection_width=396
 veTable1Map3DVE\ Table_height=542
 veTable1Map3DTabela\ VE_width=800
@@ -101,6 +103,7 @@ clt_advance_curveAdvance\ frio_X=1742
 injCharsInjector\ Characteristics_X=644
 refTable_001_txtResistor3=89
 primePWLargura\ de\ Pulso\ Pr\u00E9\ Partida_width=452
+CommSettingCDM-13841LCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/ttyUSB0
 dwellSettingsDwell\ Settings_width=396
 accelEnrichmentsAcceleration\ Enrichment_width=680
 engineProtectionHard\ Limit\ Configuration_height=596
@@ -211,6 +214,7 @@ egoControlAFR/O2_width=452
 dwellSettingsConfigura\u00E7\u00F5es\ de\ Dwell_height=448
 veTable1Map3DVE\ Table_Y=226
 veTable1Map3DVE\ Table_X=496
+CommSettingCDM-13841LCommDriver.RS232\ Serial\ InterfaceBluetooth\ Port=false
 veTableDialogTabela\ VE_height=865
 injCharsInjector\ Characteristics_height=672
 CommSettingdellCommDriver.RS232\ Serial\ InterfaceCom\ Port=/dev/rfcomm0
@@ -241,6 +245,7 @@ refTable_001_txtTemp2=50.0
 warmupWarmup\ de\ Enriquecimento\ (EUA)\ -\ Multiplicador\ Percent_Y=360
 lambdaTable1TblLambda\ Table_height=397
 refTable_001_txtTemp3=130
+CommSettingCDM-13841LCommDriver.controllerInterfaceId=RS232 Serial Interface
 idleAdvanceSettingsIdle\ Advance\ Settings_height=391
 iat_retard_curveIAT\ timing\ retard_height=306
 dwell_mapDwell\ map_width=452
