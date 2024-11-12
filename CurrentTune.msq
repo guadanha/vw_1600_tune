@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-    <bibliography author="TunerStudio MS Lite! 3.2.03 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Nov 11 15:17:44 BRT 2024"/>
+    <bibliography author="TunerStudio MS Lite! 3.2.03 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Nov 12 07:58:09 BRT 2024"/>
     <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2024.02" nPages="15" signature="speeduino 202402"/>
     <page>
         <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -471,7 +471,7 @@
         <constant digits="0" name="tachoDuration" units="ms">0.0</constant>
         <constant digits="0" name="maeThresh" units="kPa/s">0.0</constant>
         <constant digits="0" name="taeThresh" units="%/s">50.0</constant>
-        <constant digits="0" name="aeTime" units="ms">700.0</constant>
+        <constant digits="0" name="aeTime" units="ms">800.0</constant>
         <constant digits="1" name="taeMinChange" units="%">3.0</constant>
         <constant digits="0" name="maeMinChange" units="kPa">0.0</constant>
         <constant name="displayB1">"RPM"</constant>
@@ -523,7 +523,7 @@
         <constant name="idleUpPolarity">"Normal"</constant>
         <constant name="idleUpEnabled">"On"</constant>
         <constant digits="0" name="idleUpAdder" units="% / Steps">0.0</constant>
-        <constant digits="0" name="aeTaperMin" units="RPM">3000.0</constant>
+        <constant digits="0" name="aeTaperMin" units="RPM">2500.0</constant>
         <constant digits="0" name="aeTaperMax" units="RPM">4000.0</constant>
         <constant digits="0" name="iacCLminValue" units="% / Steps">60.0</constant>
         <constant digits="0" name="iacCLmaxValue" units="% / Steps">94.0</constant>
@@ -583,7 +583,7 @@
          6500.0 
       </constant>
         <constant digits="1" name="idleTaperTime" units="S">0.0</constant>
-        <constant digits="1" name="dfcoDelay" units="S">0.5</constant>
+        <constant digits="1" name="dfcoDelay" units="S">0.3</constant>
         <constant digits="0" name="dfcoMinCLT" units="C">50.0</constant>
         <constant name="vssMode">"Off"</constant>
         <constant name="vssPin">"Board Default"</constant>
@@ -681,7 +681,7 @@
          6.0 1.0 3.0 5.0 7.0 8.0 9.0 12.0 13.0 13.0 14.0 14.0 14.0 14.0 15.0 16.0 
          2.0 -3.0 -1.0 1.0 3.0 4.0 5.0 10.0 10.0 10.0 11.0 11.0 12.0 12.0 13.0 14.0 
          -1.0 -6.0 -4.0 -2.0 0.0 1.0 2.0 9.0 9.0 9.0 10.0 10.0 11.0 11.0 11.0 12.0 
-         -6.0 -8.0 -6.0 -4.0 -2.0 -1.0 0.0 1.0 2.0 2.0 3.0 3.0 4.0 6.0 8.0 10.0 
+         -6.0 -8.0 -6.0 -4.0 -2.0 -1.0 0.0 8.0 8.0 8.0 9.0 9.0 10.0 10.0 10.0 11.0 
          -5.0 -10.0 -8.0 -6.0 -4.0 -3.0 -2.0 -1.0 0.0 0.0 1.0 1.0 2.0 4.0 6.0 8.0 
          -7.0 -12.0 -10.0 -8.0 -6.0 -5.0 -4.0 -3.0 -2.0 -2.0 -1.0 -1.0 0.0 2.0 4.0 6.0 
          -8.0 -13.0 -11.0 -9.0 -7.0 -6.0 -5.0 -4.0 -3.0 -3.0 -2.0 -2.0 -1.0 1.0 3.0 5.0 
@@ -806,9 +806,9 @@
          5.0 
          15.0 
       </constant>
-        <constant digits="0" name="dfcoRPM" units="RPM">1600.0</constant>
+        <constant digits="0" name="dfcoRPM" units="RPM">1500.0</constant>
         <constant digits="0" name="dfcoHyster" units="RPM">200.0</constant>
-        <constant digits="1" name="dfcoTPSThresh" units="%">5.0</constant>
+        <constant digits="1" name="dfcoTPSThresh" units="%">4.0</constant>
         <constant name="ignBypassEnable">"Off"</constant>
         <constant name="ignBypassPin">"3"</constant>
         <constant name="ignBypassHiLo">"LOW"</constant>
