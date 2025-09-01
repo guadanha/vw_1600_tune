@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS Lite! 3.2.05 - EFI Analytics, Inc." tuneComment="" writeDate="Tue Apr 01 13:18:15 BRT 2025"/>
-<versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2025.01" nPages="15" signature="speeduino 202501"/>
+<bibliography author="TunerStudio MS Lite! 3.2.05 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Sep 01 07:51:54 BRT 2025"/>
+<versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2025.01.3" nPages="15" signature="speeduino 202501"/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
 <pcVariable digits="0" name="rpmhigh" units="rpm">7000.0</pcVariable>
@@ -455,9 +455,9 @@
 <constant cols="1" digits="0" name="wueRates" rows="10" units="%">
          152.0 
          143.0 
-         122.0 
-         119.0 
-         113.0 
+         138.0 
+         130.0 
+         120.0 
          105.0 
          102.0 
          100.0 
@@ -491,7 +491,7 @@
          355.0 
          355.0 
       </constant>
-<constant name="mapSample">"Cycle Average"</constant>
+<constant name="mapSample">"Event Average"</constant>
 <constant name="twoStroke">"Four-stroke"</constant>
 <constant name="injType">"Port"</constant>
 <constant name="nCylinders">"4"</constant>
@@ -539,20 +539,20 @@
 <constant name="rtc_mode">"Off"</constant>
 <constant name="incorporateAFR">"No"</constant>
 <constant cols="1" digits="0" name="asePct" rows="4" units="%">
-         68.0 
-         40.0 
-         10.0 
-         5.0 
+         75.0 
+         50.0 
+         15.0 
+         0.0 
       </constant>
 <constant cols="1" digits="0" name="aseCount" rows="4" units="s">
+         40.0 
          20.0 
-         12.0 
          5.0 
          3.0 
       </constant>
 <constant cols="1" digits="0" name="aseBins" rows="4" units="C">
          -5.0 
-         29.0 
+         32.0 
          45.0 
          100.0 
       </constant>
@@ -604,7 +604,7 @@
 <constant digits="0" name="iacRPMlimitHysteresis" units="RPM">0.0</constant>
 <constant digits="0" name="rtc_trim" units="ppm">0.0</constant>
 <constant digits="0" name="idleAdvVss" units="km/h">0.0</constant>
-<constant digits="0" name="mapSwitchPoint" units="RPM">0.0</constant>
+<constant digits="0" name="mapSwitchPoint" units="RPM">2000.0</constant>
 <constant name="unused0_126">"0"</constant>
 <constant name="canWBO">"Off"</constant>
 <constant name="vssAuxCh">"Aux0"</constant>
@@ -725,7 +725,7 @@
 <page number="3" size="128">
 <constant digits="0" name="TrigAng" units="Deg">-317.0</constant>
 <constant digits="0" name="FixAng" units="Deg">20.0</constant>
-<constant digits="0" name="CrankAng" units="Deg">20.0</constant>
+<constant digits="0" name="CrankAng" units="Deg">15.0</constant>
 <constant digits="0" name="TrigAngMul">0.0</constant>
 <constant name="TrigEdge">"FALLING"</constant>
 <constant name="TrigSpeed">"Crank Speed"</constant>
@@ -750,7 +750,7 @@
 <constant digits="1" name="dwellrun" units="ms">3.5</constant>
 <constant digits="0" name="numTeeth" units="teeth">60.0</constant>
 <constant digits="0" name="missingTeeth" units="teeth">2.0</constant>
-<constant digits="0" name="crankRPM" units="rpm">450.0</constant>
+<constant digits="0" name="crankRPM" units="rpm">500.0</constant>
 <constant digits="1" name="tpsflood" units="%">30.0</constant>
 <constant digits="0" name="SoftRevLim" units="rpm">6000.0</constant>
 <constant digits="0" name="SoftLimRetard" units="deg">10.0</constant>
@@ -821,18 +821,18 @@
 <constant cols="1" digits="0" name="cltAdvBins" rows="6" units="C">
          0.0 
          13.0 
-         37.0 
+         34.0 
          41.0 
-         45.0 
-         48.0 
+         110.0 
+         120.0 
       </constant>
 <constant cols="1" digits="0" name="cltAdvValues" rows="6" units="deg">
+         7.0 
          6.0 
          5.0 
-         5.0 
-         3.0 
-         1.0 
          0.0 
+         0.0 
+         -5.0 
       </constant>
 <constant cols="1" digits="0" name="maeBins" rows="4" units="kpa/s">
          0.0 
@@ -1048,9 +1048,9 @@
 <constant digits="0" name="lnchRetard" units="deg">0.0</constant>
 <constant digits="0" name="lnchHardLim" units="rpm">0.0</constant>
 <constant digits="0" name="lnchFuelAdd" units="%">0.0</constant>
-<constant digits="2" name="idleKP" units="%">1.59375</constant>
-<constant digits="2" name="idleKI" units="%">0.4375</constant>
-<constant digits="3" name="idleKD" units="%">0.25773</constant>
+<constant digits="2" name="idleKP" units="%">0.21875</constant>
+<constant digits="2" name="idleKI" units="%">0.1875</constant>
+<constant digits="3" name="idleKD" units="%">0.04686</constant>
 <constant digits="0" name="boostLimit" units="kPa">0.0</constant>
 <constant digits="0" name="boostKP" units="%">0.0</constant>
 <constant digits="0" name="boostKI" units="%">0.0</constant>
@@ -1700,14 +1700,14 @@
 <page number="9" size="192">
 <constant cols="1" digits="0" name="crankingEnrichBins" rows="4" units="C">
          -7.0 
-         26.0 
+         27.0 
          47.0 
-         100.0 
+         60.0 
       </constant>
 <constant cols="1" digits="0" name="crankingEnrichValues" rows="4" units="%">
          180.0 
-         125.0 
-         100.0 
+         180.0 
+         130.0 
          100.0 
       </constant>
 <constant name="rotaryType">"FC"</constant>
